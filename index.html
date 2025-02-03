@@ -12,6 +12,7 @@
             width: 80%;
             margin: auto;
             overflow: hidden;
+            text-align: center;
         }
         .main-info {
             background: #333;
@@ -21,10 +22,17 @@
         .main-info h1 {
             margin: 0;
         }
-        .hobbies, .lewis, .course, .job {
+        .content-section {
             background: #e7e7e7;
             padding: 15px;
             margin-bottom: 10px;
+            text-align: left;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .profile-image {
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -35,30 +43,38 @@
             <h1>Preferred Name: Nick</h1>
         </header>
 
-        <section class="lewis">
-			<h2>Year at Lewis: 4</h2>
-			<h2>Lewis major/minor/concentrations: Computer Science</h2>
-			<h2>Reasons for pursuing this degree: I always enjoyed the STEM field; I was an engineer for 2 years and decided it wasn't for me. I wanted to stay in the computer side of things, so I thought computer science would be the perfect opportunity.</h2>
+        <div class="profile-image">
+            <a href="me-300-by-300.jpeg" target="_blank">
+                <img src="me-800-by-800.jpeg" alt="Profile Picture" width="800" height="800">
+            </a>
+        </div>
+
+        <section class="content-section">
+            <h2>Introduction</h2>
+            <p>I am a fourth-year Computer Science student at Lewis University. I come from a family that has always encouraged my passion for technology. My major is Computer Science, and I previously studied engineering before switching fields.</p>
         </section>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>I need to take it to finish my degree, and I hope to learn the ins and outs of software engineering.</p>
+        <section class="content-section">
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul>
+                <li>Software development best practices</li>
+                <li>Web development fundamentals</li>
+                <li>Advanced programming techniques</li>
+            </ul>
         </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>I am a delivery driver, just handling and dropping off food/items to customers.</p>
-        </section>		
-
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>I enjoy golfing, video games, and sports betting.</p>
+        <section class="content-section">
+            <h2>My Favorite Hobby / Activity</h2>
+            <ul>
+                <li>Golfing</li>
+                <li>Sports betting</li>
+            </ul>
+            <p>Learn more about golf on <a href="https://www.pgatour.com" target="_blank">PGA Tour</a>.</p>
         </section>
 
-        <section class="fun-fact">
+        <section class="content-section">
             <h2>Fun Fact</h2>
-            <p>The biggest bet I've ever won was $30,000.</p>
+            <p>The biggest bet I’ve ever won was $30,000.</p>
         </section>
     </div>
 </body>
